@@ -66,8 +66,8 @@ abstract class BaseAccessibilityService : CBaseAccessibilityService() {
     override fun onCreate() {
         super.onCreate()
         LogUtils.d("Service onCreate.")
-        controlUse = ControlUse(applicationContext)
-        if (controlUse.stopUse()) isMonitor = false
+        //controlUse = ControlUse(applicationContext)
+        //if (controlUse.stopUse()) isMonitor = false
     }
 
     override fun onDestroy() {

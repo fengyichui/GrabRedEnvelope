@@ -49,7 +49,7 @@ data class WechatControlVO(
     @Transient
     var delayCloseTime: Int = 1,
     @Transient
-    var isCustomClick: Boolean = false,
-    var pointX: Long = 0,
-    var pointY: Long = 0
+    var isCustomClick: Boolean = true,
+    var pointX: Long = 1080/2,
+    var pointY: Long = (2376*0.64).toLong(),
 )
